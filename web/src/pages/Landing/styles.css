@@ -139,4 +139,16 @@
         grid-area: total;
         justify-self: end;
     }
+
+    .buttons-container a.about-us{
+        margin-left: 1rem;
+        background: var(--color-primary-lighter);
+        width: 5rem;
+        height: 5rem;
+        border-radius: 5rem; 
+    }
+    
+    .buttons-container a.about-us:hover{
+        background: var(--color-primary-light);
+    }
 }
